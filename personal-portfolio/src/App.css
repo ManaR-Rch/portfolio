@@ -1,0 +1,27 @@
+/* App Styles */
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 2px solid #667eea;
+}

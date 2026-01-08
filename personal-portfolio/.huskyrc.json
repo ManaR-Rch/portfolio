@@ -1,0 +1,12 @@
+// Git hooks configuration
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "prettier --write"]
+  }
+}

@@ -1,7 +1,8 @@
 # Development Setup Guide
 
 ## Prerequisites
-- Node.js v18+ 
+
+- Node.js v18+
 - npm v9+
 - Git
 
@@ -12,6 +13,7 @@
 3. Run development server: `npm start`
 
 ## Project Structure
+
 - `/src/components` - React components
 - `/src/utils` - Utility functions
 - `/src/assets` - Static assets
@@ -19,6 +21,7 @@
 - `/src/config` - Configuration files
 
 ## Development Commands
+
 - `npm start` - Start development server
 - `npm test` - Run tests
 - `npm run build` - Build for production
